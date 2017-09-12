@@ -6,6 +6,16 @@
 [![](https://images.microbadger.com/badges/image/izonder/janny.svg)](https://microbadger.com/images/izonder/janny "Get your own image badge on microbadger.com")
 [![Build Status](https://travis-ci.org/izonder/janny.svg?branch=master)](https://travis-ci.org/izonder/janny)
 
+## IMPORTANT! Breaking changes announcement
+
+Due to JDK 9 release schedule we are planning to release major upgrade, which contains:
+- [OpenJDK 9](http://openjdk.java.net/projects/jdk9/)
+- [Parent package](https://hub.docker.com/r/izonder/anny/) components upgrade
+
+Please be aware of that and make sure these changes won't affect your functionality.
+
+**Disclaimer:** we are **NOT** going to maintain different versions/tags of ANNY, the only _"latest"_ will exist. If you need legacy one please feel free to fork and tune the package up to you.
+
 ## Features
 
 - Alpine linux as base-image
