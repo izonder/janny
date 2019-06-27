@@ -1,8 +1,8 @@
-FROM izonder/anny:latest
+FROM izonder/anny:12
 
 MAINTAINER Dmitry Morgachev <izonder@gmail.com>
 
-ENV OPENJDK_VERSION=8-jre
+ENV OPENJDK_VERSION=11-jre
 
 RUN set -x \
 
