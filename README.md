@@ -2,9 +2,9 @@
 
 **JANNY** = **J**ava + **A**lpine + **N**ginx + **N**ode.js + **Y**arn
 
-[![](https://images.microbadger.com/badges/version/izonder/janny.svg)](https://microbadger.com/images/izonder/janny "Get your own version badge on microbadger.com")
-[![](https://images.microbadger.com/badges/image/izonder/janny.svg)](https://microbadger.com/images/izonder/janny "Get your own image badge on microbadger.com")
-[![Build Status](https://travis-ci.org/izonder/janny.svg?branch=master)](https://travis-ci.org/izonder/janny)
+[![](https://images.microbadger.com/badges/version/izonder/janny:12.svg)](https://microbadger.com/images/izonder/janny "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/izonder/janny:12.svg)](https://microbadger.com/images/izonder/janny "Get your own image badge on microbadger.com")
+[![Build Status](https://travis-ci.org/izonder/janny.svg?branch=nodejs-12)](https://travis-ci.org/izonder/janny)
 
 ## IMPORTANT! Breaking changes announcement
 
