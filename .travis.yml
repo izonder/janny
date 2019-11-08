@@ -13,4 +13,6 @@ script:
   - docker run -it --rm izonder/janny java -version
 
 after_success:
-  - curl -X POST https://registry.hub.docker.com/u/izonder/janny/trigger/$DOCKER_TRIGGER_TOKEN/
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - docker tag izonder/janny izonder/janny:12
+  - docker push izonder/janny:12
