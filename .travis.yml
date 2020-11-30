@@ -14,5 +14,5 @@ script:
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker tag izonder/janny izonder/janny:12
-  - docker push izonder/janny:12
+  - docker tag izonder/janny izonder/janny:14
+  - docker push izonder/janny:14

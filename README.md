@@ -2,28 +2,29 @@
 
 **JANNY** = **J**ava + **A**lpine + **N**ginx + **N**ode.js + **Y**arn
 
-[![](https://images.microbadger.com/badges/version/izonder/janny:12.svg)](https://microbadger.com/images/izonder/janny "Get your own version badge on microbadger.com")
-[![](https://images.microbadger.com/badges/image/izonder/janny:12.svg)](https://microbadger.com/images/izonder/janny "Get your own image badge on microbadger.com")
-[![Build Status](https://travis-ci.org/izonder/janny.svg?branch=nodejs-12)](https://travis-ci.org/izonder/janny)
+[![](https://images.microbadger.com/badges/version/izonder/janny:14.svg)](https://microbadger.com/images/izonder/janny "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/izonder/janny:14.svg)](https://microbadger.com/images/izonder/janny "Get your own image badge on microbadger.com")
+[![Build Status](https://travis-ci.org/izonder/janny.svg?branch=nodejs-14)](https://travis-ci.org/izonder/janny)
 
 ## IMPORTANT! Breaking changes announcement
 
 Due to new JDK verion we have released a major upgrade, which contains:
 - [OpenJDK 11](https://openjdk.java.net/projects/jdk/11/)
-- [Parent package v12](https://hub.docker.com/r/izonder/anny/)
+- [Parent package v14](https://hub.docker.com/r/izonder/anny/)
 
 Please be aware of that and make sure these changes won't affect your functionality. Also be aware the child image [`izonder/lanny`](https://hub.docker.com/r/izonder/lanny/) is also rebuilt based on `izonder/janny:latest`.
 
 ## Supported tags and respective `Dockerfile` links
 - `latest` [(Dockerfile)](https://github.com/izonder/janny/blob/master/Dockerfile)
+- `14` [(Dockerfile)](https://github.com/izonder/janny/blob/nodejs-14/Dockerfile)
 - `12` [(Dockerfile)](https://github.com/izonder/janny/blob/nodejs-12/Dockerfile)
 
 ## Features
 
 - Alpine linux as base-image
 - S6-overlay to run multiple processes in container
-- Nginx v1.16.x with basic configuration
-- Node.js v12.x.x
+- Nginx v1.18.x with basic configuration
+- Node.js v14.x.x
 - Yarn package manager
 - Java OpenJDK 11 (JRE)
 
