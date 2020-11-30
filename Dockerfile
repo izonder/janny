@@ -1,4 +1,4 @@
-FROM izonder/anny:latest
+FROM izonder/anny:10
 
 MAINTAINER Dmitry Morgachev <izonder@gmail.com>
 
