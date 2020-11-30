@@ -18,6 +18,7 @@ Please be aware of that and make sure these changes won't affect your functional
 - `latest` [(Dockerfile)](https://github.com/izonder/janny/blob/master/Dockerfile)
 - `14` [(Dockerfile)](https://github.com/izonder/janny/blob/nodejs-14/Dockerfile)
 - `12` [(Dockerfile)](https://github.com/izonder/janny/blob/nodejs-12/Dockerfile)
+- `10` [(Dockerfile)](https://github.com/izonder/janny/blob/nodejs-10/Dockerfile)
 
 ## Features
 
